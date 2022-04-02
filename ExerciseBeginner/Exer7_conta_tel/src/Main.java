@@ -15,9 +15,6 @@ public class Main {
         if (minutes > 100) {
             billValue = billValue + (minutes - 100)*2;
         }
-        else {
-            billValue = billValue;
-        }
 
         /*Mostrar o valor final da conta*/
         System.out.printf("Você usou %d minutos e o valor da conta é de R$ %.2f. %n Obrigado!", minutes, billValue);
